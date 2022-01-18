@@ -1,0 +1,15 @@
+http://localhost:5000/feedback
+
+###
+POST http://localhost:5000/feedback
+Content-Type: application/json
+
+{
+  "rating": 5,
+  "text": "An average quality course"
+}
+
+###
+DELETE http://localhost:5000/feedback/4
+
+
